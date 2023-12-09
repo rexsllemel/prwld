@@ -1,0 +1,24 @@
+
+
+h1 {
+    text-align: center;
+  }
+  
+
+.alert {
+    padding: 10px;
+    background-color: #ff0000;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+.forecast_cont {
+  position: relative;
+}
+
+.forecast {
+  position: fixed;
+  bottom: 8px;
+  right: 16px;
+}

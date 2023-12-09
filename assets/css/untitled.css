@@ -1,0 +1,57 @@
+.water-level {
+  /*background-color: red;*/
+}
+
+.padding-top {
+  padding-top: 15px;
+}
+
+.fas.fa-circle.safe-color {
+  color: green;
+}
+
+.fas.fa-circle.warning-color {
+  color: yellow;
+}
+
+.fas.fa-circle.danger-color {
+  color: red;
+}
+
+.card-size {
+  height: 300px;
+  width: auto;
+}
+
+.water-meter {
+  padding-top: 8px;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+#chart_wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  width: 400px;
+}
+
+.weatherwidget-io.forecast {
+  margin-left: 10px;
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+#alert-message {
+  background-color: red;
+  color: black;
+}
+#waterAlert {
+  background-color: red;
+  color: black;
+}
+.chart{
+  width: 900px;
+  height: 260px;
+}

@@ -5,5 +5,7 @@ Pulangui Water Level Detector is our innovative capstone project, aimed at revol
 This project was made possible by
 
   Kent Harold Depeña
+  
   Karl Lourence Paña
+  
   Rexsovel L. Melgar

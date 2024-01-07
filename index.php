@@ -14,9 +14,6 @@
     <link rel="stylesheet" href="assets/css/Ludens---Contact-Info--Google-Map.css">
     <link rel="stylesheet" href="assets/css/Navbar-Apple.css">
     <link rel="stylesheet" href="assets/css/untitled.css">
-    <link rel="stylesheet" href="assets/css/WOWSlider-about-us-WOWSlider-about-us-1.css">
-    <link rel="stylesheet" href="assets/css/WOWSlider-about-us-WOWSlider-about-us-2.css">
-    <link rel="stylesheet" href="assets/css/WOWSlider-about-us.css">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js" integrity="sha512-UXumZrZNiOwnTcZSHLOfcTs0aos2MzBWHXOHOuB0J/R44QB0dwY5JgfbvljXcklVf65Gc4El6RjZ+lnwd2az2g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-zoom/2.0.1/chartjs-plugin-zoom.min.js" integrity="sha512-wUYbRPLV5zs6IqvWd88HIqZU/b8TBx+I8LEioQ/UC0t5EMCLApqhIAnUg7EsAzdbhhdgW07TqYDdH3QEXRcPOQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>

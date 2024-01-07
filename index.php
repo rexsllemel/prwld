@@ -41,7 +41,7 @@
                                         <li class="nav-item">
                                             <a class="nav-link" href="index.php">
                                                 <div class="d-flex align-items-center">
-                                                    <img src="assets/img/logo.png" alt="Pulangui Logo" width="25px" height="25px" class="mr-2">
+                                                    <img src="assets/img/logo.png" alt="Pulangui Logo" width="25px" height="25px">
                                                     <p class="mb-0">Pulangui</p>
                                                 </div>
                                             </a>

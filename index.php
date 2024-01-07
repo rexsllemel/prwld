@@ -31,10 +31,21 @@
                     <div class="d-sm-flex justify-content-between align-items-center mb-4 padding-top">
                         <h3 class="text-dark mb-0">Pulangui Water Level Monitoring</h3>
                         <nav class="navbar navbar-expand-md fixed-top bg-dark p-0 navbar-dark">
-                            <div class="container"><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                            <div class="container">
+                                <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1">
+                                    <span class="visually-hidden">Toggle navigation</span>
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
                                 <div class="collapse navbar-collapse" id="navcol-1">
                                     <ul class="navbar-nav flex-grow-1 justify-content-between">
-                                        <li class="nav-item"><a class="nav-link" href="index.php"><img src="assets/img/logo.png" alt="Pulangui Logo" weight="25px" height="25px"><div><p>Pulangui</p></div></a></li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="index.php">
+                                                <div class="d-flex align-items-center">
+                                                    <img src="assets/img/logo.png" alt="Pulangui Logo" width="25px" height="25px" class="mr-2">
+                                                    <p class="mb-0">Pulangui</p>
+                                                </div>
+                                            </a>
+                                        </li>
                                         <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
                                         <li class="nav-item"><a class="nav-link" href="">Advisory</a></li>
                                         <li class="nav-item"><a class="nav-link" href="contact.html">Emergency Hotline</a></li>

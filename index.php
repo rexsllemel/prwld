@@ -27,7 +27,6 @@
     <div id="wrapper">
         <div class="d-flex flex-column" id="content-wrapper">
             <div id="content">
-            <img src="assets/img/logo.png" alt="Pulangui Logo" width="50px" height="50px" class="mr-2">
                 <div class="container-fluid" style="margin-top: 35px;margin-bottom: 35px;">
                     <div class="d-sm-flex justify-content-between align-items-center mb-4 padding-top">
                         <h3 class="text-dark mb-0">Pulangui Water Level Monitoring</h3>

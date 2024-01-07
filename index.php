@@ -34,7 +34,7 @@
                             <div class="container"><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
                                 <div class="collapse navbar-collapse" id="navcol-1">
                                     <ul class="navbar-nav flex-grow-1 justify-content-between">
-                                        <li class="nav-item"><a class="nav-link" href="#"><img src="assets/img/logo.png" alt="Pulangui Logo" weight="25px" height="25px"></a></li>
+                                        <li class="nav-item"><a class="nav-link" href="index.php"><img src="assets/img/logo.png" alt="Pulangui Logo" weight="25px" height="25px"></a></li>
                                         <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
                                         <li class="nav-item"><a class="nav-link" href="">Advisory</a></li>
                                         <li class="nav-item"><a class="nav-link" href="contact.html">Emergency Hotline</a></li>

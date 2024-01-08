@@ -1,5 +1,6 @@
 google.charts.load('current', {'packages':['gauge']});
 google.charts.setOnLoadCallback(drawChartBatangan);
+google.charts.setOnLoadCallback(drawChartLumbayao);
 
 let water_Level_node_one = 0;
 let water_Level_node_two = 0;
@@ -88,6 +89,38 @@ function drawChartBatangan() {
         };
 
         var chart = new google.visualization.Gauge(document.getElementById('batangan_gauge'));
+
+        chart.draw(data, options);
+
+        setInterval(function() {
+            data.setValue(0, 1, water_Level_node_one);
+            chart.draw(data, options);
+          }, 500);
+        
+}
+
+function drawChartLumbayao() {
+
+
+
+    console.log(water_Level_node_one);
+
+        var data = google.visualization.arrayToDataTable([
+          ['Label', 'Value'],
+          ['Meters', 1],
+        ]);
+
+        var options = {
+          width: 200, height: 200,
+		  greenFrom: 1, greenTo: 3,
+          redFrom: 4, redTo: 5,
+          yellowFrom:3, yellowTo: 4,
+          minorTicks: 5,
+		  min:1, max:5,
+            yellowColor: '#FFFF00',
+        };
+
+        var chart = new google.visualization.Gauge(document.getElementById('lumbayao_gauge'));
 
         chart.draw(data, options);
 

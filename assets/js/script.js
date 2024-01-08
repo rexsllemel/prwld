@@ -137,7 +137,7 @@ var ctx = document.getElementById('BatanganChart').getContext('2d');
         function updateBatanganChart() {
             var dateFilter = document.getElementById('dateFilter').value;
 
-            fetch('assets/fetch_data.php?dateFilter=' + dateFilter)
+            fetch('assets/api/node2/fetch_data.php?dateFilter=' + dateFilter)
                 .then(response => response.json())
                 .then(data => {
                     if (chart) {
@@ -193,7 +193,7 @@ var ctx = document.getElementById('LumbayaoChart').getContext('2d');
         function updateLumbayaoChart() {
             var dateFilter = document.getElementById('dateFilter').value;
 
-            fetch('assets/fetch_data.php?dateFilter=' + dateFilter)
+            fetch('assets/api/node2/fetch_data.php?dateFilter=' + dateFilter)
                 .then(response => response.json())
                 .then(data => {
                     if (chart) {

@@ -15,9 +15,12 @@ if(!$connect){
 
 echo "Connection Success!<br><br>";
 
-$waterlevel = $_GET["distance"];
+$node1 = $_GET["node1"];
+$node2 = $_GET["node2"];
 
-$query = "INSERT INTO ultrasonic_data (distance) VALUES ('$waterlevel')";
+$queryForNode1 = "INSERT INTO ultrasonic_data (node1) VALUES ('$node1')";
+$queryForNode2 = "INSERT INTO ultrasonic_data (node2) VALUES ('$node2')";
+
 $result = mysqli_query($connect,$query);
 
 echo "Insertion Success!<br>";

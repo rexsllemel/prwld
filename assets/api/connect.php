@@ -31,9 +31,6 @@ if ($resultForNode1 && $resultForNode2) {
 }
 
 
-echo "Insertion Success!<br>";
-
-
 
 ?>
 

@@ -115,7 +115,7 @@
                                 <div class="card shadow"><canvas id="BatanganChart"></canvas></div>
                             </div>
                         </div>
-                        <div>
+                        <div style="margin-top: 50px;">
                             <div class="card shadow">
                                 <div class="card-header py-3">
                                     <h6 class="text-primary fw-bold m-0">Recent Lumbayao Water Level</h6>

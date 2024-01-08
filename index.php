@@ -26,7 +26,7 @@
             <div id="content">
                 <div class="container-fluid" style="margin-top: 35px;margin-bottom: 35px;">
                     <div class="d-sm-flex justify-content-between align-items-center mb-4 padding-top">
-                        <h3 class="text-dark mb-0">Pulangui Water Level Monitorinasdasdasdasg</h3>
+                        <h3 class="text-dark mb-0">Pulangui Water Level Monitoring</h3>
                         <nav class="navbar navbar-expand-md fixed-top bg-dark p-0 navbar-dark">
                             <div class="container">
                                 <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1">

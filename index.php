@@ -60,7 +60,7 @@
                     <div id="waterAlertLumbayao">
                         <!-- Alert message will be updated dynamically here -->
                     </div>
-                    <div class="row justify-content-center text-center" style="margin-top: 15px;">
+                    <div class="row justify-content-center text-center mb-4" style="margin-top: 15px;">
                         <div class="col-lg-5 offset-lg-0">
                             <div class="card shadow">
                                 <div class="card-header py-3">

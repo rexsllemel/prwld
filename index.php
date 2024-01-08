@@ -74,7 +74,7 @@
                         </div>
                     </div> 
                     <div class="row justify-content-center" style="margin-bottom: 0px;padding-bottom: 31px;">
-                        <div class="col-lg-5 col-xl-4" style="height: 200px">
+                        <div class="col-lg-5 col-xl-4">
                             <div class="card shadow mb-4 card-size">
                                 <div class="card-header d-flex justify-content-between align-items-center" style="padding-bottom: 24px;">
                                     <h6 class="text-primary fw-bold m-0">Pulangui Batangan Water Level Meter</h6>
@@ -95,7 +95,7 @@
                             </div>
                         </div>
                     <div class="row justify-content-center" style="margin-bottom: 0px;padding-bottom: 31px;">
-                        <div>
+                        <div style="margin-top: 50px;">
                             <div class="card shadow">
                                 <div class="card-header py-3">
                                     <h6 class="text-primary fw-bold m-0">Recent Batangan Water Level</h6>

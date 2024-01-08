@@ -55,7 +55,10 @@
                     <div id="alert-message" >
                         <!-- Alert message will be updated dynamically here -->
                     </div>
-                    <div id="waterAlert">
+                    <div id="waterAlertBatangan">
+                        <!-- Alert message will be updated dynamically here -->
+                    </div>
+                    <div id="waterAlertLumbayao">
                         <!-- Alert message will be updated dynamically here -->
                     </div>
                     <div class="row justify-content-center" style="margin-bottom: 0px;padding-bottom: 31px;">

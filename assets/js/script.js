@@ -32,10 +32,10 @@ function updateWaterLevelNodeOne() {
             let max = 4.0;
 
             if (water_Level_node_one >= max) {
-                $('#waterAlert').show().html("Danger Batangan Water Level!!!!!!!!!!!!!!!!");
+                $('#waterAlertBatangan').show().html("Danger Batangan Water Level!!!!!!!!!!!!!!!!");
                 console.log("water level is higher than 4 meters:::" + water_Level_node_one);
             } else {
-                $('#waterAlert').empty().hide();
+                $('#waterAlertBatangan').empty().hide();
             }
         }
     });
@@ -53,10 +53,10 @@ function updateWaterLevelNodeTwo() {
             let max = 4.0;
 
             if (water_Level_node_two >= max) {
-                $('#waterAlert2').show().html("Danger Lumbayao Water Level!!!!!!!!!!!!!!!!");
+                $('#waterAlertLumbayao').show().html("Danger Lumbayao Water Level!!!!!!!!!!!!!!!!");
                 console.log("water level is higher than 4 meters:::" + water_Level_node_two);
             } else {
-                $('#waterAlert2').empty().hide();
+                $('#waterAlertLumbayao').empty().hide();
             }
         }
     });

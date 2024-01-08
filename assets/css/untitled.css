@@ -47,7 +47,11 @@
   background-color: red;
   color: black;
 }
-#waterAlert {
+#waterAlertBatangan {
+  background-color: red;
+  color: black;
+}
+#waterAlertLumbayao {
   background-color: red;
   color: black;
 }

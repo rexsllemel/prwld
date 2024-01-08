@@ -37,8 +37,8 @@
                                     <ul class="navbar-nav flex-grow-1 justify-content-between">
                                         <li class="nav-item">
                                             <a class="nav-link" href="index.php">
-                                                <div class="row d-flex align-items-center">
-                                                    <img src="assets/img/logo.png" alt="Pulangui Logo" width="25px" height="25px" class="mr-2">
+                                                <div class="d-flex align-items-center">
+                                                    <img src="assets/img/logo.png" alt="Pulangui Logo" width="25px" height="25px" class="mr-6">
                                                     <p class="mb-0 ml-10">Pulangui</p>
                                                 </div>
                                             </a>

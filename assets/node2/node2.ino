@@ -61,7 +61,7 @@ void loop() {
 
 
     // This will send the request to the server
- client.print(String("GET http://faithvpn.site/pulangui/assets/connect.php?") + 
+ client.print(String("GET http://faithvpn.site/pulangui/assets/node2.php?") + 
                           ("&distance=") + distance +
                           " HTTP/1.1\r\n" +
                  "Host: " + host + "\r\n" +

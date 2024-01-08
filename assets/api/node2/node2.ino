@@ -5,7 +5,7 @@
 const char* ssid     = "FAITH WiFi";
 const char* password = "";
 const char* host = "38.54.80.251";
-const char* api = "node1";
+const char* api = "node2";
 
 
 void setup() {
@@ -62,7 +62,7 @@ void loop() {
 
 
     // This will send the request to the server
- client.print(String("GET http://faithvpn.site/pulangui/assets/api/connect.php?") + 
+ client.print(String("GET http://faithvpn.site/pulangui/assets/api/" + api + "connect.php?") + 
                           ("&" + api + "=") + distance +
                           " HTTP/1.1\r\n" +
                  "Host: " + host + "\r\n" +

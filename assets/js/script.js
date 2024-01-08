@@ -95,7 +95,7 @@ var ctx = document.getElementById('myChart').getContext('2d');
                             labels: data.map(entry => entry.timestamp),
                             datasets: [{
                                 label: 'Water Level',
-                                data: data.map(entry => entry.node1),
+                                data: data.map(entry => entry.distance),
                                 borderColor: 'rgba(75, 192, 192, 1)',
                                 borderWidth: 1
                             }]

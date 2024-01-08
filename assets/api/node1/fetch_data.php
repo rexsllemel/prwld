@@ -1,7 +1,7 @@
 <?php
 include 'assets/db_connect.php';
 
-$dateFilter = $_GET['dateFilter'];
+$dateFilter = $_GET['BatangandateFilter'];
 
 switch ($dateFilter) {
     case 'today':

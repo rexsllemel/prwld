@@ -101,8 +101,8 @@
                                     <h6 class="text-primary fw-bold m-0">Recent Batangan Water Level</h6>
                                 </div>
                                 <div>
-                                <label for="dateFilter">Select Time Range:</label>
-                                <select id="dateFilter" onchange="updateBatanganChart()">
+                                <label for="BatangandateFilter">Select Time Range:</label>
+                                <select id="BatangandateFilter" onchange="updateBatanganChart()">
                                     <option value="all">All</option>
                                     <option value="last_30_minutes" selected>30 mins</option>
                                     <option value="today" >Today</option>
@@ -118,11 +118,11 @@
                         <div>
                             <div class="card shadow">
                                 <div class="card-header py-3">
-                                    <h6 class="text-primary fw-bold m-0">Recent Batangan Water Level</h6>
+                                    <h6 class="text-primary fw-bold m-0">Recent Lumbayao Water Level</h6>
                                 </div>
                                 <div>
-                                <label for="dateFilter">Select Time Range:</label>
-                                <select id="dateFilter" onchange="updateLumbayaoChart()">
+                                <label for="LumbayaodateFilter">Select Time Range:</label>
+                                <select id="LumbayaodateFilter" onchange="updateLumbayaoChart()">
                                     <option value="all">All</option>
                                     <option value="last_30_minutes" selected>30 mins</option>
                                     <option value="today" >Today</option>
@@ -132,7 +132,7 @@
                                     <option value="last_month">Last Month</option>
                                 </select>
                                 </div>
-                                <div class="card shadow"><canvas id="BatanganChart"></canvas></div>
+                                <div class="card shadow"><canvas id="LumbayaoChart"></canvas></div>
                             </div>
                         </div>
                     </div>

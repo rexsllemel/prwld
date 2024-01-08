@@ -1,7 +1,7 @@
 <?php
 include 'assets/db_connect.php';
 
-$dateFilter = $_GET['dateFilter'];
+$dateFilter = $_GET['LumbayaodateFilter'];
 
 switch ($dateFilter) {
     case 'today':

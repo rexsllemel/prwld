@@ -85,8 +85,8 @@
                         </div>
                     </div>
                      <div class="col-lg-5 col-xl-4">
-                         <div class="card shadow mb-4 card-size">
-                            <div class="card-header py-3">
+                            <div class="card shadow mb-4 card-size">
+                                <div class="card-header justify-content-between align-items-center" style="padding-bottom: 15px;">
                                     <h6 class="text-primary fw-bold m-0">Pulangui Lumabayao Water Level Meter</h6>
                                 </div>
                                 <div class="card-body water-level" style="margin-top: -2px;padding-top: 2px;padding-bottom: 0px;margin-bottom: 4px;"><div class="text-center small padding-top"><span class="me-2"><i class="fas fa-circle safe-color"></i> Safe</span><span class="me-2"><i class="fas fa-circle warning-color"></i> Warning</span><span class="me-2"><i class="fas fa-circle danger-color"></i> Danger</span></div><script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
@@ -94,7 +94,7 @@
                                 </div>
                             </div>
                         </div>
-                    <div class="row justify-content-center text-left" style="margin-bottom: 0px;padding-bottom: 31px;">
+                    <div class="row justify-content-center" style="margin-bottom: 0px;padding-bottom: 31px;">
                         <div style="margin-top: 50px;">
                             <div class="card shadow">
                                 <div class="card-header py-3">

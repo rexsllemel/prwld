@@ -85,7 +85,7 @@
                                     <h6 class="text-primary fw-bold m-0">Pulangui Lumabayao Water Level Meter</h6>
                                 </div>
                                 <div class="card-body water-level" style="margin-top: -2px;padding-top: 2px;padding-bottom: 0px;margin-bottom: 4px;"><div class="text-center small padding-top"><span class="me-2"><i class="fas fa-circle safe-color"></i> Safe</span><span class="me-2"><i class="fas fa-circle warning-color"></i> Warning</span><span class="me-2"><i class="fas fa-circle danger-color"></i> Danger</span></div><script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-                                <div id="lumbayao_guage" class="water-meter"></div>
+                                <div id="lumbayao_gauge" class="water-meter"></div>
                                 </div>
                             </div>
                         </div>

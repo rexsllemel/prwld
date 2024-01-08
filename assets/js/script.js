@@ -103,7 +103,7 @@ function drawChartLumbayao() {
 
 
 
-    console.log(water_Level_node_one);
+    console.log(water_Level_node_two);
 
         var data = google.visualization.arrayToDataTable([
           ['Label', 'Value'],
@@ -125,7 +125,7 @@ function drawChartLumbayao() {
         chart.draw(data, options);
 
         setInterval(function() {
-            data.setValue(0, 1, water_Level_node_one);
+            data.setValue(0, 1, water_Level_node_two);
             chart.draw(data, options);
           }, 500);
         

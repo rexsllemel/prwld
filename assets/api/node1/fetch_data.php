@@ -1,5 +1,5 @@
 <?php
-include 'assets/db_connect.php';
+include 'db_connect.php';
 
 $dateFilter = $_GET['BatangandateFilter'];
 

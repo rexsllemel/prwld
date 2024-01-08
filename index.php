@@ -65,7 +65,7 @@
                         <div class="col-lg-5 offset-lg-0 mb-4">
                             <div class="card shadow mb-4">
                                 <div class="card-header py-3">
-                                    <h6 class="text-primary fw-bold m-0 text-center">Valencia City Weather Forecast</h6>
+                                    <h6 class="text-primary fw-bold m-0">Valencia City Weather Forecast</h6>
                                 </div><a class="weatherwidget-io forecast" href="https://forecast7.com/en/7d86125d17/valencia-city/" data-label_1="VALENCIA" data-label_2="Pulangui Weather" data-theme="weather_one" >VALENCIA Pulangui Weather</a>
                                 <script>
                                 !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');

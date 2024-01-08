@@ -21,7 +21,15 @@ $node2 = $_GET["node2"];
 $queryForNode1 = "INSERT INTO ultrasonic_data (node1) VALUES ('$node1')";
 $queryForNode2 = "INSERT INTO ultrasonic_data (node2) VALUES ('$node2')";
 
-$result = mysqli_query($connect,$query);
+$resultForNode1 = mysqli_query($connect, $queryForNode1);
+$resultForNode2 = mysqli_query($connect, $queryForNode2);
+
+if ($resultForNode1 && $resultForNode2) {
+    echo "Insertion Success!<br>";
+} else {
+    echo "Error: " . mysqli_error($connect);
+}
+
 
 echo "Insertion Success!<br>";
 

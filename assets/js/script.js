@@ -132,7 +132,7 @@ function drawChartLumbayao() {
 }
 
 var ctxy = document.getElementById('BatanganChart').getContext('2d');
-        var chart;
+        var charty;
 
         function updateBatanganChart() {
             var BatangandateFilter = document.getElementById('BatangandateFilter').value;
@@ -140,11 +140,11 @@ var ctxy = document.getElementById('BatanganChart').getContext('2d');
             fetch('assets/api/node1/fetch_data.php?BatangandateFilter=' + BatangandateFilter)
                 .then(response => response.json())
                 .then(data => {
-                    if (chart) {
-                        chart.destroy();
+                    if (charty) {
+                        charty.destroy();
                     }
 
-                    chart = new Chart(ctxy, {
+                    charty = new Chart(ctxy, {
                         type: 'line',
                         data: {
                             labels: data.map(entry => entry.timestamp),

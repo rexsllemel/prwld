@@ -131,10 +131,66 @@ function drawChartLumbayao() {
         
 }
 
-var ctx = document.getElementById('myChart').getContext('2d');
+var ctx = document.getElementById('BatanganChart').getContext('2d');
         var chart;
 
-        function updateChart() {
+        function updateBatanganChart() {
+            var dateFilter = document.getElementById('dateFilter').value;
+
+            fetch('assets/fetch_data.php?dateFilter=' + dateFilter)
+                .then(response => response.json())
+                .then(data => {
+                    if (chart) {
+                        chart.destroy();
+                    }
+
+                    chart = new Chart(ctx, {
+                        type: 'line',
+                        data: {
+                            labels: data.map(entry => entry.timestamp),
+                            datasets: [{
+                                label: 'Water Level',
+                                data: data.map(entry => entry.distance),
+                                borderColor: 'rgba(75, 192, 192, 1)',
+                                borderWidth: 1
+                            }]
+                        },
+                        options: {
+                            scales: {
+                                y: {
+                                    beginAtZero: true,
+                                    max: 6,
+                                    min: 0
+                                  },
+                                
+                            },
+                            plugins: {
+                                zoom: {
+                                    pan: {
+                                        enabled: true,
+                                        mode: 'x',
+                                        modifierKey: 'ctrl'
+                                    },
+                                    zoom: {
+                                        wheel: {
+                                            enabled: true,
+                                        },
+                                        pinch: {
+                                            enabled: true
+                                        },
+                                        mode: 'xy'
+                                    }
+                                }
+                            }
+                        }
+                    });
+                });
+        }
+
+var ctx = document.getElementById('LumbayaoChart').getContext('2d');
+        var chart;
+
+        function updateLumbayaoChart() {
             var dateFilter = document.getElementById('dateFilter').value;
 
             fetch('assets/fetch_data.php?dateFilter=' + dateFilter)
@@ -188,10 +244,13 @@ var ctx = document.getElementById('myChart').getContext('2d');
         }
 
         function updateChartPeriodically() {
-            updateChart(); // Initial chart render
+            // Initial chart render
+            updateBatanganChart(); 
+            updateLumbayaoChart(); 
 
             // Update chart every 30 seconds
-            setInterval(updateChart, 30000);
+            setInterval(updateBatanganChart, 30000);
+            setInterval(updateLumbayaoChart, 30000);
         }
 
         updateChartPeriodically();

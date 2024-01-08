@@ -94,7 +94,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row justify-content-center" style="margin-bottom: 0px;padding-bottom: 31px;">
+                    <div class="row justify-content-center" style="margin-bottom: 0px;padding-bottom: 31px;">
                         <div>
                             <div class="card shadow">
                                 <div class="card-header py-3">
@@ -102,7 +102,7 @@
                                 </div>
                                 <div>
                                 <label for="dateFilter">Select Time Range:</label>
-                                <select id="dateFilter" onchange="updateChart()">
+                                <select id="dateFilter" onchange="updateBatanganChart()">
                                     <option value="all">All</option>
                                     <option value="last_30_minutes" selected>30 mins</option>
                                     <option value="today" >Today</option>
@@ -111,8 +111,28 @@
                                     <option value="this_month">This Month</option>
                                     <option value="last_month">Last Month</option>
                                 </select>
+                                </div>
+                                <div class="card shadow"><canvas id="BatanganChart"></canvas></div>
                             </div>
-                            <div class="card shadow"><canvas id="myChart"></canvas></div>
+                        </div>
+                        <div>
+                            <div class="card shadow">
+                                <div class="card-header py-3">
+                                    <h6 class="text-primary fw-bold m-0">Recent Batangan Water Level</h6>
+                                </div>
+                                <div>
+                                <label for="dateFilter">Select Time Range:</label>
+                                <select id="dateFilter" onchange="updateLumbayaoChart()">
+                                    <option value="all">All</option>
+                                    <option value="last_30_minutes" selected>30 mins</option>
+                                    <option value="today" >Today</option>
+                                    <option value="yesterday">Yesterday</option>
+                                    <option value="last_week">Last Week</option>
+                                    <option value="this_month">This Month</option>
+                                    <option value="last_month">Last Month</option>
+                                </select>
+                                </div>
+                                <div class="card shadow"><canvas id="BatanganChart"></canvas></div>
                             </div>
                         </div>
                     </div>

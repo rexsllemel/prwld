@@ -25,8 +25,8 @@
         <div class="d-flex flex-column" id="content-wrapper">
             <div id="content">
                 <div class="container-fluid" style="margin-top: 35px;margin-bottom: 35px;">
-                    <div class="d-sm-flex justify-content-between align-items-center mb-4 padding-top">
-                        <h3 class="text-dark mb-0">Pulangui Water Level Monitoring</h3>
+                    <div class="d-sm-flex justify-content-between align-items-center padding-top">
+                        <h3 class="text-dark">Pulangui Water Level Monitoring</h3>
                         <nav class="navbar navbar-expand-md fixed-top bg-dark p-0 navbar-dark">
                             <div class="container">
                                 <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1">
@@ -61,8 +61,8 @@
                         <!-- Alert message will be updated dynamically here -->
                     </div>
                     <div class="row justify-content-center text-center" style="margin-top: 15px;">
-                        <div class="col-lg-5 offset-lg-0 mb-4">
-                            <div class="card shadow mb-4">
+                        <div class="col-lg-5 offset-lg-0">
+                            <div class="card shadow">
                                 <div class="card-header py-3">
                                     <h6 class="text-primary fw-bold m-0">Valencia City Weather Forecast</h6>
                                 </div><a class="weatherwidget-io forecast" href="https://forecast7.com/en/7d86125d17/valencia-city/" data-label_1="VALENCIA" data-label_2="Pulangui Weather" data-theme="weather_one" >VALENCIA Pulangui Weather</a>
@@ -73,8 +73,8 @@
                         </div>
                     </div> 
                     <div class="row justify-content-center text-center" style="margin-bottom: 0px;">
-                        <div class="col-lg-5 offset-lg-0 mb-4">
-                            <div class="card shadow mb-4 card-size">
+                        <div class="col-lg-5 offset-lg-0">
+                            <div class="card shadow card-size">
                                 <div class="card-header py-3">
                                     <h6 class="text-primary fw-bold m-0" >Pulangui Batangan Water Level Meter</h6>
                                 </div>
@@ -84,7 +84,7 @@
                         </div>
                      </div>
                      <div class="col-lg-5 col-xl-4">
-                            <div class="card shadow mb-4 card-size">
+                            <div class="card shadow card-size">
                                 <div class="card-header py-3">
                                     <h6 class="text-primary fw-bold m-0">Pulangui Lumabayao Water Level Meter</h6>
                                 </div>
@@ -93,7 +93,7 @@
                                 </div>
                             </div>
                         </div>
-                    <div class="row justify-content-center " style="margin-top: 30px;">
+                    <div class="row justify-content-center">
                         <div style="margin-top: 50px;">
                             <div class="card shadow">
                                 <div class="card-header d-flex  py-3">

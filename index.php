@@ -28,6 +28,7 @@
                 <div class="container-fluid" style="margin-top: 35px;margin-bottom: 35px;">
                     <div class="d-sm-flex justify-content-between align-items-center padding-top">
                         <h3 class="text-dark">Pulangui Water Level Monitoring</h3>
+                        <img src="assets/img/logo.png" alt="Pulangui Logo" width="50px" height="50px">
                         <nav class="navbar navbar-expand-md fixed-top bg-dark p-0 navbar-dark">
                             <div class="container">
                                 <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1">

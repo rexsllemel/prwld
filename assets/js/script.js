@@ -1,5 +1,5 @@
 google.charts.load('current', {'packages':['gauge']});
-google.charts.setOnLoadCallback(drawChart);
+google.charts.setOnLoadCallback(drawChartBatangan);
 
 let water_Level_node_one = 0;
 let water_Level_node_two = 0;
@@ -66,7 +66,7 @@ setInterval(updateWaterLevelNodeTwo, 1000);
 
 
 
-function drawChart() {
+function drawChartBatangan() {
 
 
 
@@ -87,7 +87,7 @@ function drawChart() {
             yellowColor: '#FFFF00',
         };
 
-        var chart = new google.visualization.Gauge(document.getElementById('gauge_div'));
+        var chart = new google.visualization.Gauge(document.getElementById('batangan_gauge'));
 
         chart.draw(data, options);
 

@@ -93,7 +93,7 @@
                                 </div>
                             </div>
                         </div>
-                    <div class="row justify-content-center " style="margin-top: 30px;padding-bottom: 31px;">
+                    <div class="row justify-content-center " style="margin-top: 30px;">
                         <div style="margin-top: 50px;">
                             <div class="card shadow">
                                 <div class="card-header d-flex  py-3">

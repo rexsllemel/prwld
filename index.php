@@ -75,7 +75,7 @@
                     </div> 
                     <div class="row justify-content-center text-center" style="margin-bottom: 0px;padding-bottom: 15px;">
                         <div class="col-lg-5 offset-lg-0 mb-4">
-                            <div class="card shadow mb-4 card-size">
+                            <div class="card shadow mb-4">
                                 <div class="card-header d-flex justify-content-between align-items-center" style="padding-bottom: 24px;">
                                     <h6 class="text-primary fw-bold m-0" >Pulangui Batangan Water Level Meter</h6>
                                 </div>

@@ -1,7 +1,8 @@
 google.charts.load('current', {'packages':['gauge']});
 google.charts.setOnLoadCallback(drawChart);
 
-let water_Level = 0;
+let water_Level_node_one = 0;
+let water_Level_node_two = 0;
 
 function updateAlertMessage() {
             $.ajax({
@@ -21,17 +22,17 @@ function updateAlertMessage() {
         // Periodically check for updates every 10 seconds
 setInterval(updateAlertMessage, 3000);
 
-function updateWaterLevel() {
+function updateWaterLevelNodeOne() {
     $.ajax({
         url: 'assets/api/node1/waterlevel.php',
         method: 'GET',
         success: function(water) {
-            water_Level = water;
+            water_Level_node_one = water;
             let max = 4.0;
 
-            if (water_Level >= max) {
+            if (water_Level_node_one >= max) {
                 $('#waterAlert').show().html("Danger Water Level!!!!!!!!!!!!!!!!");
-                console.log("water level is higher than 4 meters:::" + water_Level);
+                console.log("water level is higher than 4 meters:::" + water_Level_node_one);
             } else {
                 $('#waterAlert').empty().hide();
             }
@@ -40,28 +41,28 @@ function updateWaterLevel() {
 }
 
 // Periodically check for updates every 10 seconds
-setInterval(updateWaterLevel, 1000);
+setInterval(updateWaterLevelNodeOne, 1000);
 
-function updateWaterLevel() {
+function updateWaterLevelNodeTwo() {
     $.ajax({
         url: 'assets/api/node2/waterlevel.php',
         method: 'GET',
         success: function(water) {
-            water_Level = water;
+            water_Level_node_two = water;
             let max = 4.0;
 
-            if (water_Level >= max) {
-                $('#waterAlert').show().html("Danger Water Level!!!!!!!!!!!!!!!!");
-                console.log("water level is higher than 4 meters:::" + water_Level);
+            if (water_Level_node_two >= max) {
+                $('#waterAlert2').show().html("Danger Water Level!!!!!!!!!!!!!!!!");
+                console.log("water level is higher than 4 meters:::" + water_Level_node_two);
             } else {
-                $('#waterAlert').empty().hide();
+                $('#waterAlert2').empty().hide();
             }
         }
     });
 }
 
 // Periodically check for updates every 10 seconds
-setInterval(updateWaterLevel, 1000);
+setInterval(updateWaterLevelNodeTwo, 1000);
 
 
 
@@ -69,7 +70,7 @@ function drawChart() {
 
 
 
-    console.log(water_Level);
+    console.log(water_Level_node_one);
 
         var data = google.visualization.arrayToDataTable([
           ['Label', 'Value'],
@@ -91,7 +92,7 @@ function drawChart() {
         chart.draw(data, options);
 
         setInterval(function() {
-            data.setValue(0, 1, water_Level);
+            data.setValue(0, 1, water_Level_node_one);
             chart.draw(data, options);
           }, 500);
         

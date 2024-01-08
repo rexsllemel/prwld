@@ -18,7 +18,7 @@ $result = $conn->query($sql);
 if ($result->num_rows > 0) {
     // Output data of the latest row
     $row = $result->fetch_assoc();
-    $distance = $row["distance"];
+    $distance = $row["node1"];
     echo $distance;
 } else {
     echo "0 results";

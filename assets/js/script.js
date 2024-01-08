@@ -131,7 +131,7 @@ function drawChartLumbayao() {
         
 }
 
-var ctx = document.getElementById('BatanganChart').getContext('2d');
+var ctxy = document.getElementById('BatanganChart').getContext('2d');
         var chart;
 
         function updateBatanganChart() {
@@ -144,7 +144,7 @@ var ctx = document.getElementById('BatanganChart').getContext('2d');
                         chart.destroy();
                     }
 
-                    chart = new Chart(ctx, {
+                    chart = new Chart(ctxy, {
                         type: 'line',
                         data: {
                             labels: data.map(entry => entry.timestamp),

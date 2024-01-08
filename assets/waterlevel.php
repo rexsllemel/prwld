@@ -1,8 +1,4 @@
 <?php
-
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
-
 $servername = "localhost";
 $username = "root";
 $password = "";
@@ -22,8 +18,9 @@ $result = $conn->query($sql);
 if ($result->num_rows > 0) {
     // Output data of the latest row
     $row = $result->fetch_assoc();
+    var_dump($row); // Debug statement
     $distance = $row["node1"];
-    echo $distance;
+    echo "Distance: " . $distance;
 } else {
     echo "0 results";
 }

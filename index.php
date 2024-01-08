@@ -94,7 +94,7 @@
                                 </div>
                             </div>
                         </div>
-                    <div class="row justify-content-center" style="margin-bottom: 0px;padding-bottom: 31px;">
+                    <div class="row justify-content-center text-left" style="margin-bottom: 0px;padding-bottom: 31px;">
                         <div style="margin-top: 50px;">
                             <div class="card shadow">
                                 <div class="card-header py-3">

@@ -50,6 +50,7 @@ void loop() {
   Serial.print("Distance: ");
   Serial.print(distance);
   Serial.println(" cm");
+  Serial.println(String(api));
 
   WiFiClient client;
     const int httpPort = 80;
@@ -62,8 +63,9 @@ void loop() {
 
 
     // This will send the request to the server
- client.print(String("GET http://faithvpn.site/pulangui/assets/api/" + api + "connect.php?") + 
-                          ("&" + api + "=") + distance +
+    
+ client.print(String("GET http://faithvpn.site/pulangui/assets/api/" + String(api) + "/connect.php?") + 
+                          ("&" + String(api) + "=") + String(distance) +
                           " HTTP/1.1\r\n" +
                  "Host: " + host + "\r\n" +
                  "Connection: close\r\n\r\n");

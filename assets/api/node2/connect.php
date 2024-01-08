@@ -15,7 +15,7 @@ if(!$connect){
 
 echo "Connection Success!<br><br>";
 
-$waterlevel = $_GET["distance"];
+$waterlevel = $_GET["node2"];
 
 $query = "INSERT INTO node_two (distance) VALUES ('$waterlevel')";
 $result = mysqli_query($connect,$query);

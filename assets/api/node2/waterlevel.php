@@ -12,7 +12,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "SELECT * FROM ultrasonic_data ORDER BY id DESC LIMIT 1";
+$sql = "SELECT * FROM node_two ORDER BY id DESC LIMIT 1";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {

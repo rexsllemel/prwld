@@ -5,25 +5,25 @@ $dateFilter = $_GET['dateFilter'];
 
 switch ($dateFilter) {
     case 'today':
-        $sql = "SELECT * FROM ultrasonic_data WHERE DATE(timestamp) = CURDATE()";
+        $sql = "SELECT * FROM node_one WHERE DATE(timestamp) = CURDATE()";
         break;
     case 'yesterday':
-        $sql = "SELECT * FROM ultrasonic_data WHERE DATE(timestamp) = CURDATE() - INTERVAL 1 DAY";
+        $sql = "SELECT * FROM node_one WHERE DATE(timestamp) = CURDATE() - INTERVAL 1 DAY";
         break;
     case 'last_week':
-        $sql = "SELECT * FROM ultrasonic_data WHERE timestamp >= NOW() - INTERVAL 1 WEEK";
+        $sql = "SELECT * FROM node_one WHERE timestamp >= NOW() - INTERVAL 1 WEEK";
         break;
     case 'this_month':
-        $sql = "SELECT * FROM ultrasonic_data WHERE MONTH(timestamp) = MONTH(NOW())";
+        $sql = "SELECT * FROM node_one WHERE MONTH(timestamp) = MONTH(NOW())";
         break;
     case 'last_month':
-        $sql = "SELECT * FROM ultrasonic_data WHERE MONTH(timestamp) = MONTH(NOW()) - 1";
+        $sql = "SELECT * FROM node_one WHERE MONTH(timestamp) = MONTH(NOW()) - 1";
         break;
     case 'last_30_minutes':
-        $sql = "SELECT * FROM ultrasonic_data WHERE timestamp >= NOW() - INTERVAL 30 MINUTE";
+        $sql = "SELECT * FROM node_one WHERE timestamp >= NOW() - INTERVAL 30 MINUTE";
         break;
     default:
-        $sql = "SELECT * FROM ultrasonic_data";
+        $sql = "SELECT * FROM node_one";
 }
 
 $result = $conn->query($sql);

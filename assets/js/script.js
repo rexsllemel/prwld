@@ -23,7 +23,28 @@ setInterval(updateAlertMessage, 3000);
 
 function updateWaterLevel() {
     $.ajax({
-        url: 'assets/waterlevel.php',
+        url: 'assets/api/node1/waterlevel.php',
+        method: 'GET',
+        success: function(water) {
+            water_Level = water;
+            let max = 4.0;
+
+            if (water_Level >= max) {
+                $('#waterAlert').show().html("Danger Water Level!!!!!!!!!!!!!!!!");
+                console.log("water level is higher than 4 meters:::" + water_Level);
+            } else {
+                $('#waterAlert').empty().hide();
+            }
+        }
+    });
+}
+
+// Periodically check for updates every 10 seconds
+setInterval(updateWaterLevel, 1000);
+
+function updateWaterLevel() {
+    $.ajax({
+        url: 'assets/api/node2/waterlevel.php',
         method: 'GET',
         success: function(water) {
             water_Level = water;

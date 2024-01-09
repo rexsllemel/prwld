@@ -1,5 +1,5 @@
 <?php
-require ('../../pulangui/assets/db_connect.php');
+require '../../pulangui/assets/db_connect.php';
 
 // $servername = "localhost";
 // $username = "root";

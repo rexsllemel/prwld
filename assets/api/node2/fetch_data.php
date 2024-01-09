@@ -1,5 +1,5 @@
 <?php
-include 'db_connect.php';
+require '../../../assets/db_connect.php';
 
 $dateFilter = $_GET['LumbayaodateFilter'];
 

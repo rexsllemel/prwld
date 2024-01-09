@@ -2,11 +2,6 @@
 <?php
 require '../../../assets/db_connect.php';
 
-// $dbname = 'waterlevel';
-// $dbuser = 'root';  
-// $dbpass = ''; 
-// $dbhost = 'localhost'; 
-
 $connect = @mysqli_connect($host,$username,$password,$database);
 
 if(!$connect){

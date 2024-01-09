@@ -1,11 +1,6 @@
 <?php
 require '../../../assets/db_connect.php';
 
-// $servername = "localhost";
-// $username = "root";
-// $password = "";
-// $dbname = "waterlevel";
-
 // Create connection
 $conn = new mysqli($host, $username, $password, $database);
 

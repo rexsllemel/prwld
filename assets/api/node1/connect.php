@@ -1,6 +1,6 @@
 
 <?php
-include 'http://localhost/pulangui/assets/db_connect.php';
+include 'http://faithvpn.site/pulangui/assets/db_connect.php';
 
 // $dbname = 'waterlevel';
 // $dbuser = 'root';  

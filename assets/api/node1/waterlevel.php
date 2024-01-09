@@ -1,5 +1,5 @@
 <?php
-include('../../pulangui/db_connect.php');
+include('../../pulangui/assets/db_connect.php');
 
 // $servername = "localhost";
 // $username = "root";

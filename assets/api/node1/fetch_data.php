@@ -1,5 +1,5 @@
 <?php
-include('../../pulangui/assets/db_connect.php');
+require ('../../pulangui/assets/db_connect.php');
 
 $dateFilter = $_GET['BatangandateFilter'];
 

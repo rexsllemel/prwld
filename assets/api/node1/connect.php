@@ -1,6 +1,6 @@
 
 <?php
-include('../../pulangui/assets/db_connect.php');
+require ('../../pulangui/assets/db_connect.php');
 
 // $dbname = 'waterlevel';
 // $dbuser = 'root';  

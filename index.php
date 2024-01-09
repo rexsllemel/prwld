@@ -51,8 +51,7 @@
                                     </ul>
                                 </div>
                             </div>
-                        </nav>
-                    </div>
+                            
                     <div id="alert-message" >
                         <!-- Alert message will be updated dynamically here -->
                     </div>
@@ -61,6 +60,8 @@
                     </div>
                     <div id="waterAlertLumbayao">
                         <!-- Alert message will be updated dynamically here -->
+                    </div>
+                        </nav>
                     </div>
                     <div class="row justify-content-center text-center mb-4" style="margin-top: 15px;">
                         <div class="col-lg-5 offset-lg-0">

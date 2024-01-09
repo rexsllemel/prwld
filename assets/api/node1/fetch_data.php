@@ -1,5 +1,5 @@
 <?php
-require 'http://localhost/pulangui/assets/db_connect.php';
+require 'db_connect.php';
 
 $dateFilter = $_GET['BatangandateFilter'];
 

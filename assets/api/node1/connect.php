@@ -1,12 +1,13 @@
 
 <?php
+include 'http://localhost/pulangui/assets/db_connect.php';
 
-$dbname = 'waterlevel';
-$dbuser = 'root';  
-$dbpass = ''; 
-$dbhost = 'localhost'; 
+// $dbname = 'waterlevel';
+// $dbuser = 'root';  
+// $dbpass = ''; 
+// $dbhost = 'localhost'; 
 
-$connect = @mysqli_connect($dbhost,$dbuser,$dbpass,$dbname);
+$connect = @mysqli_connect($host,$username,$password,$database);
 
 if(!$connect){
 	echo "Error: " . mysqli_connect_error();

@@ -1,5 +1,5 @@
 <?php
-require 'http://faithvpn.site/pulangui/assets/db_connect.php';
+require 'http://localhost/pulangui/assets/db_connect.php';
 
 // $servername = "localhost";
 // $username = "root";

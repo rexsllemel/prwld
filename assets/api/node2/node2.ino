@@ -88,6 +88,6 @@ void loop() {
     Serial.println();
     Serial.println("closing connection");
 
-  delay(23000); // You can adjust the delay based on your needs
+  delay(876); // You can adjust the delay based on your needs
 
 }

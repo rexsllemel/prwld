@@ -21,7 +21,7 @@ function updateAlertMessage() {
         }
 
         // Periodically check for updates every 10 seconds
-setInterval(updateAlertMessage, 3000);
+setInterval(updateAlertMessage, 543);
 
 function updateWaterLevelNodeOne() {
     $.ajax({
@@ -42,7 +42,7 @@ function updateWaterLevelNodeOne() {
 }
 
 // Periodically check for updates every 10 seconds
-setInterval(updateWaterLevelNodeOne, 1000);
+setInterval(updateWaterLevelNodeOne, 543);
 
 function updateWaterLevelNodeTwo() {
     $.ajax({
@@ -63,7 +63,7 @@ function updateWaterLevelNodeTwo() {
 }
 
 // Periodically check for updates every 10 seconds
-setInterval(updateWaterLevelNodeTwo, 1000);
+setInterval(updateWaterLevelNodeTwo, 543);
 
 
 
@@ -249,8 +249,8 @@ var ctx = document.getElementById('LumbayaoChart').getContext('2d');
             updateLumbayaoChart(); 
 
             // Update chart every 30 seconds
-            setInterval(updateBatanganChart, 30000);
-            setInterval(updateLumbayaoChart, 30000);
+            setInterval(updateBatanganChart, 876);
+            setInterval(updateLumbayaoChart, 876);
         }
 
         updateChartPeriodically();

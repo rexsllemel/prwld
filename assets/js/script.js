@@ -249,8 +249,8 @@ var ctx = document.getElementById('LumbayaoChart').getContext('2d');
             updateLumbayaoChart(); 
 
             // Update chart every 30 seconds
-            setInterval(updateBatanganChart, 876);
-            setInterval(updateLumbayaoChart, 876);
+            setInterval(updateBatanganChart, 3000);
+            setInterval(updateLumbayaoChart, 3000);
         }
 
         updateChartPeriodically();
